@@ -1,45 +1,31 @@
 
-# Athlete Training Load & Recovery Dashboard
+# Athlete Training Load & Performance Analytics Dashboard
 
-**End-to-end sports performance analytics project** designed to support data-informed decisions in high-performance sport environments 
+**Portfolio Project** 
 
 ### Project Overview
-This project demonstrates a complete data analytics workflow for monitoring athlete training load, recovery, and injury risk. Key focus is calculating the **Acute:Chronic Workload Ratio (ACWR)** — a widely used metric in sports science to identify periods of potential overtraining or undertraining.
+End-to-end analysis of athlete training data to support data-informed coaching decisions in high-performance sport. Focused on training load calculation, injury risk patterns, and performance insights.
 
 ### Technologies Used
-- **Python** — pandas, numpy, matplotlib, seaborn (data cleaning & analysis)
-- **SQL** — SQLite (queries on training data)
-- **Power BI** — interactive dashboards and visualisations
-- **Git** — version control and reproducible workflow
+- **Python**: pandas, numpy, matplotlib, seaborn
+- **Power BI**: Interactive dashboards (in progress)
+- **Git**: Version control
 
-### Dataset
-- Source: [Athlete Training & Recovery Tracker Dataset (Kaggle)](https://www.kaggle.com/datasets/prince7489/athlete-training-and-recovery-tracker-dataset)
-- Synthetic dataset containing daily training hours, fatigue levels, recovery index, sleep duration, nutrition score, and performance metrics.
-
-### Key Features & Insights
-- Data cleaning and feature engineering in Python
-- Calculated **Acute:Chronic Workload Ratio (ACWR)** using rolling windows (7-day acute vs 28-day chronic)
-- Identified high-risk periods where ACWR > 1.5 (potential overtraining risk)
-- Built interactive Power BI dashboard with trends, athlete comparisons, and risk flags
-- SQL queries for aggregated performance reporting
-
-**Main Insight:**  
-Developed an analytics solution that helps coaches visualise training load trends and flag athletes at risk of overtraining, supporting better periodisation and athlete management decisions.
+### Key Insights
+- **Cricket** athletes showed the highest average training load (20.31)
+- **70.6%** of sessions had Low Injury Risk, only **9.5%** High Risk
+- Clear relationship visible between Training Intensity and Fatigue Level
+- Recovery Index and Performance Score show moderate negative correlation with injury risk
 
 ### Repository Structure
-- `data/` — raw and processed datasets
-- `notebooks/` — Jupyter notebooks for exploration and ACWR calculation
-- `dashboards/` — Power BI (.pbix) file
-- `src/` — Python scripts (if used)
+- `data/` → Raw and cleaned datasets
+- `notebooks/` → Python analysis (`01_data_exploration_and_acwr.ipynb`)
+- `dashboards/` → Power BI files 
 
 ### How to Run
 1. Open `notebooks/01_data_exploration_and_acwr.ipynb`
-2. Run the notebook to generate processed data and insights
-3. Open the Power BI file in `dashboards/` for the interactive dashboard
-
-### Future Enhancements
-- Add predictive modelling for fatigue/injury risk
-- Cloud deployment (Azure/Databricks)
-- Automated daily reporting
+2. Run all cells to see insights and visualizations
 
 ---
+
+**Built as a demonstration of analytical skills** 
