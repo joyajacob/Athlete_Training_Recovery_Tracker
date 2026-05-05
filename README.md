@@ -1,31 +1,51 @@
+### 📊 Athlete Training Load & Performance Analytics Dashboard ###
 
-# Athlete Training Load & Performance Analytics Dashboard
+End-to-End Data Science & Sports Analytics Project
 
-**Portfolio Project** 
+🧠 Project Overview
 
-### Project Overview
-End-to-end analysis of athlete training data to support data-informed coaching decisions in high-performance sport. Focused on training load calculation, injury risk patterns, and performance insights.
+This project analyses athlete training data to uncover how training load, fatigue, and recovery impact performance and injury risk.
 
-### Technologies Used
-- **Python**: pandas, numpy, matplotlib, seaborn
-- **Power BI**: Interactive dashboards (in progress)
-- **Git**: Version control
+The goal is to simulate real-world decision-making for coaches and sports analysts by identifying early warning signals for injury and optimising training intensity for peak performance.
 
-### Key Insights
-- **Cricket** athletes showed the highest average training load (20.31)
-- **70.6%** of sessions had Low Injury Risk, only **9.5%** High Risk
-- Clear relationship visible between Training Intensity and Fatigue Level
-- Recovery Index and Performance Score show moderate negative correlation with injury risk
+⚙️ Tech Stack
+Python: pandas, numpy, matplotlib, seaborn
+Power BI: Interactive dashboard for stakeholder insights
+Git: Version control & project tracking
 
-### Repository Structure
-- `data/` → Raw and cleaned datasets
-- `notebooks/` → Python analysis (`01_data_exploration_and_acwr.ipynb`)
-- `dashboards/` → Power BI files 
+🔍 Key Insights
+-Cricket athletes recorded the highest average training load (~20.31), indicating higher workload demands compared to other sports
+-70.6% sessions were Low Injury Risk, while 9.5% were High Risk, highlighting manageable but critical risk pockets
+-A strong positive relationship exists between Training Intensity and Fatigue Level, validating workload stress patterns
+-Recovery Index shows inverse behaviour with injury risk, suggesting poor recovery contributes to higher risk
+-Performance remains relatively stable despite load variation, indicating potential for load optimisation without performance drop
 
-### How to Run
-1. Open `notebooks/01_data_exploration_and_acwr.ipynb`
-2. Run all cells to see insights and visualizations
+📊 Dashboard Highlights (Power BI)
+KPI cards: Training Load, Performance Score, Recovery Index, Injury Risk
+Trend analysis: Load vs Performance over time
+Sport-wise comparison of workload
+Injury risk distribution across sessions
+Scatter plots:
+Fatigue vs Training Intensity
+Recovery vs Performance
 
----
+🧩 Analytical Approach
+Feature engineering for:
+Training Load
+Fatigue Level
+Recovery Index
+Exploratory Data Analysis (EDA) to identify patterns
+Correlation analysis to uncover relationships between performance and risk
+Visual storytelling using Power BI
 
-**Built as a demonstration of analytical skills** 
+📁 Repository Structure
+data/         → Raw and processed datasets  
+notebooks/    → Python analysis (EDA + feature engineering)  
+dashboards/   → Power BI dashboard files  
+
+▶️ How to Run
+Open:
+notebooks/01_data_exploration_and_acwr.ipynb
+Run all cells to reproduce analysis
+Open Power BI file from /dashboards to explore interactive visuals
+
