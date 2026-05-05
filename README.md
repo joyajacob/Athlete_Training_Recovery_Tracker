@@ -15,18 +15,27 @@ Git: Version control & project tracking
 
 🔍 Key Insights
 -Cricket athletes recorded the highest average training load (~20.31), indicating higher workload demands compared to other sports
+
 -70.6% sessions were Low Injury Risk, while 9.5% were High Risk, highlighting manageable but critical risk pockets
+
 -A strong positive relationship exists between Training Intensity and Fatigue Level, validating workload stress patterns
+
 -Recovery Index shows inverse behaviour with injury risk, suggesting poor recovery contributes to higher risk
+
 -Performance remains relatively stable despite load variation, indicating potential for load optimisation without performance drop
 
 📊 Dashboard Highlights (Power BI)
+
 KPI cards: Training Load, Performance Score, Recovery Index, Injury Risk
+
 Trend analysis: Load vs Performance over time
+
 Sport-wise comparison of workload
+
 Injury risk distribution across sessions
+
 Scatter plots:
-Fatigue vs Training Intensity
+Fatigue vs Training Intensity & 
 Recovery vs Performance
 
 🧩 Analytical Approach
