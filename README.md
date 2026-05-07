@@ -13,16 +13,13 @@ Python: pandas, numpy, matplotlib, seaborn
 Power BI: Interactive dashboard for stakeholder insights
 Git: Version control & project tracking
 
-🔍 Key Insights
--Cricket athletes recorded the highest average training load (~20.31), indicating higher workload demands compared to other sports
+🧩 Analytical Approach
 
--70.6% sessions were Low Injury Risk, while 9.5% were High Risk, highlighting manageable but critical risk pockets
-
--A strong positive relationship exists between Training Intensity and Fatigue Level, validating workload stress patterns
-
--Recovery Index shows inverse behaviour with injury risk, suggesting poor recovery contributes to higher risk
-
--Performance remains relatively stable despite load variation, indicating potential for load optimisation without performance drop
+- Data cleaning and preprocessing
+- Feature engineering
+- Exploratory Data Analysis (EDA)
+- Correlation analysis
+- Interactive Power BI storytelling
 
 📊 Dashboard Highlights (Power BI)
 
@@ -38,19 +35,46 @@ Scatter plots:
 Fatigue vs Training Intensity & 
 Recovery vs Performance
 
-🧩 Analytical Approach
-Feature engineering for:
-Training Load
-Fatigue Level
-Recovery Index
-Exploratory Data Analysis (EDA) to identify patterns
-Correlation analysis to uncover relationships between performance and risk
-Visual storytelling using Power BI
+## 📊 Dashboard Preview
+
+### 1. Executive Overview Dashboard
+
+- Tracks overall athlete workload and recovery metrics
+- Highlights injury risk distribution across all sessions
+- Compares training load across different sports
+
+### 2. Training Load Analysis Dashboard
+
+
+- Analyses relationship between fatigue and training intensity
+- Identifies workload patterns by sport
+- Supports performance monitoring over time
+
+
+### 3. Recovery & Injury Risk Dashboard
+
+
+
+- Examines recovery index versus performance score
+- Visualises injury risk distribution by sport
+- Helps identify athletes requiring recovery intervention
+
+
+
+## 🔍 Key Insights
+
+- Cricket athletes recorded the highest average training load (~20.31)
+- 70.6% of sessions were categorised as Low Injury Risk
+- Strong positive relationship observed between fatigue and training intensity
+- Recovery index showed inverse behaviour with injury risk
+- Performance remained relatively stable despite workload variation
+
 
 📁 Repository Structure
 data/         → Raw and processed datasets  
 notebooks/    → Python analysis (EDA + feature engineering)  
-dashboards/   → Power BI dashboard files  
+dashboards/   → Power BI dashboard files 
+images/        → Dashboard screenshots 
 
 ▶️ How to Run
 Open:
